@@ -1,0 +1,262 @@
+# EESchema Netlist Version 1.1 created  11/18/2013 10:49:40 PM
+(
+ ( /528ADCB2 $noname  J1 RJ45 {Lib=RJ45}
+  (    1 N-000028 )
+  (    2 N-000026 )
+  (    3 N-000029 )
+  (    4 /PWR )
+  (    5 /PWR )
+  (    6 N-000030 )
+  (    7 GND )
+  (    8 GND )
+  (    9 ? )
+ )
+ ( /528ADCB8 $noname  U2 MAX488 {Lib=MAX488}
+  (    1 +5V )
+  (    2 /RX )
+  (    3 /TX )
+  (    4 GND )
+  (    5 N-000028 )
+  (    6 N-000026 )
+  (    7 N-000030 )
+  (    8 N-000029 )
+ )
+ ( /528ADCBE $noname  R3 100 {Lib=R}
+  (    1 N-000029 )
+  (    2 N-000030 )
+ )
+ ( /528ADE35 $noname  U1 FT232RL {Lib=FT232RL}
+  (    1 /TX )
+  (    2 /DTR )
+  (    3 ? )
+  (    4 +5V )
+  (    5 /RX )
+  (    6 ? )
+  (    7 GND )
+  (    9 ? )
+  (   10 ? )
+  (   11 /CTS )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 N-000019 )
+  (   16 N-000007 )
+  (   17 ? )
+  (   18 GND )
+  (   19 ? )
+  (   20 +5V )
+  (   21 GND )
+  (   22 N-000003 )
+  (   23 N-000004 )
+  (   25 GND )
+  (   26 GND )
+  (   27 ? )
+  (   28 ? )
+ )
+ ( /528AE030 $noname  P2 FTDI {Lib=CONN_6}
+  (    1 GND )
+  (    2 /CTS )
+  (    3 +5V )
+  (    4 /TX )
+  (    5 /RX )
+  (    6 /DTR )
+ )
+ ( /528AE224 $noname  P1 USBMICRO {Lib=USBMICRO}
+  (    1 +5V )
+  (    2 N-000007 )
+  (    3 N-000019 )
+  (    4 GND )
+  (    5 GND )
+ )
+ ( /528AE480 $noname  C1 C {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /528AE506 $noname  LED1 TX {Lib=LED}
+  (    1 N-000005 )
+  (    2 N-000004 )
+ )
+ ( /528AE513 $noname  LED2 RX {Lib=LED}
+  (    1 N-000006 )
+  (    2 N-000003 )
+ )
+ ( /528AE610 $noname  R1 R {Lib=R}
+  (    1 +5V )
+  (    2 N-000005 )
+ )
+ ( /528AE61D $noname  R2 R {Lib=R}
+  (    1 +5V )
+  (    2 N-000006 )
+ )
+ ( /528AE815 $noname  P5 CONN_2 {Lib=CONN_2}
+  (    1 /PWR )
+  (    2 GND )
+ )
+ ( /528AE8AE $noname  P3 FTDI {Lib=CONN_6}
+  (    1 GND )
+  (    2 /CTS )
+  (    3 +5V )
+  (    4 /TX )
+  (    5 /RX )
+  (    6 /DTR )
+ )
+ ( /528AFAFD $noname  LED3 PWR {Lib=LED}
+  (    1 N-000021 )
+  (    2 GND )
+ )
+ ( /528AFB04 $noname  R4 1k {Lib=R}
+  (    1 +5V )
+  (    2 N-000021 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component LED1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component LED2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component LED3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ P2 1
+ P5 2
+ P1 4
+ P1 5
+ LED3 2
+ J1 7
+ U1 25
+ C1 2
+ U1 26
+ U1 21
+ U1 18
+ J1 8
+ U2 4
+ U1 7
+ P3 1
+Net 2 "+5V" "+5V"
+ P3 3
+ U1 20
+ R4 1
+ U1 4
+ U2 1
+ P2 3
+ C1 1
+ R2 1
+ R1 1
+ P1 1
+Net 3 "" ""
+ LED2 2
+ U1 22
+Net 4 "" ""
+ LED1 2
+ U1 23
+Net 5 "" ""
+ R1 2
+ LED1 1
+Net 6 "" ""
+ R2 2
+ LED2 1
+Net 7 "" ""
+ U1 16
+ P1 2
+Net 19 "" ""
+ U1 15
+ P1 3
+Net 20 "/DTR" "DTR"
+ U1 2
+ P3 6
+ P2 6
+Net 21 "" ""
+ LED3 1
+ R4 2
+Net 22 "/PWR" "PWR"
+ J1 4
+ J1 5
+ P5 1
+Net 23 "/TX" "TX"
+ P3 4
+ P2 4
+ U2 3
+ U1 1
+Net 24 "/RX" "RX"
+ U1 5
+ U2 2
+ P3 5
+ P2 5
+Net 25 "/CTS" "CTS"
+ P2 2
+ U1 11
+ P3 2
+Net 26 "" ""
+ J1 2
+ U2 6
+Net 28 "" ""
+ U2 5
+ J1 1
+Net 29 "" ""
+ U2 8
+ R3 1
+ J1 3
+Net 30 "" ""
+ J1 6
+ R3 2
+ U2 7
+}
+#End

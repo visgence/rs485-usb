@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 11/18/2013 10:46:59 PM
+
+BeginCmp
+TimeStamp = /528AE480;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /528ADCB2;
+Reference = J1;
+ValeurCmp = RJ45;
+IdModule  = RJ45_8_ASSMAN;
+EndCmp
+
+BeginCmp
+TimeStamp = /528AE506;
+Reference = LED1;
+ValeurCmp = TX;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /528AE513;
+Reference = LED2;
+ValeurCmp = RX;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /528AFAFD;
+Reference = LED3;
+ValeurCmp = PWR;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /528AE224;
+Reference = P1;
+ValeurCmp = USBMICRO;
+IdModule  = USB-MICRO-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /528AE030;
+Reference = P2;
+ValeurCmp = FTDI;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /528AE8AE;
+Reference = P3;
+ValeurCmp = FTDI;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /528AE815;
+Reference = P5;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /528AE610;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /528AE61D;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /528ADCBE;
+Reference = R3;
+ValeurCmp = 100;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /528AFB04;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /528ADE35;
+Reference = U1;
+ValeurCmp = FT232RL;
+IdModule  = ssop-28;
+EndCmp
+
+BeginCmp
+TimeStamp = /528ADCB8;
+Reference = U2;
+ValeurCmp = MAX488;
+IdModule  = SO8E;
+EndCmp
+
+EndListe
