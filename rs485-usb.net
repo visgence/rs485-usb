@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  11/18/2013 10:49:40 PM
+# EESchema Netlist Version 1.1 created  11/19/2013 9:50:51 PM
 (
  ( /528ADCB2 $noname  J1 RJ45 {Lib=RJ45}
   (    1 N-000028 )
@@ -68,7 +68,7 @@
   (    4 GND )
   (    5 GND )
  )
- ( /528AE480 $noname  C1 C {Lib=C}
+ ( /528AE480 $noname  C1 47u {Lib=C}
   (    1 +5V )
   (    2 GND )
  )
@@ -80,15 +80,15 @@
   (    1 N-000006 )
   (    2 N-000003 )
  )
- ( /528AE610 $noname  R1 R {Lib=R}
+ ( /528AE610 $noname  R1 1k {Lib=R}
   (    1 +5V )
   (    2 N-000005 )
  )
- ( /528AE61D $noname  R2 R {Lib=R}
+ ( /528AE61D $noname  R2 1k {Lib=R}
   (    1 +5V )
   (    2 N-000006 )
  )
- ( /528AE815 $noname  P5 CONN_2 {Lib=CONN_2}
+ ( /528AE815 $noname  P5 PWR {Lib=CONN_2}
   (    1 /PWR )
   (    2 GND )
  )
